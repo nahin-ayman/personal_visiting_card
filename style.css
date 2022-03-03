@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(46, 44, 53);
+    /* font-family: 'Shippori Antique B1', sans-serif; */
+    font-family: 'Outfit', sans-serif;
+}
+.logo h1{
+    color:rgb(46, 247, 46) ;
+    font-size: 35px;
+    position: relative;
+    left: -70%;
+    top: 30%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    /* background-color: rgb(65, 64, 64); */
+    position: relative;
+}
+nav .links{
+    margin-top: 10px;
+}
+nav .links ul {
+    list-style-type: none;
+    position: absolute;
+    /* border: 1px solid rgb(226, 43, 128); */
+    
+}
+nav .links ul li{
+    /* border: 1px solid blue; */
+    
+}
+nav .links ul li:first-child a i{
+    display: inline-block;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   
+}
+nav .links ul li:last-child a i{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    
+}
+nav .links ul a{
+    text-decoration: none;
+    color: rgb(214, 218, 221);
+    /* border: 1px solid black; */
+    display: block;
+    text-align: right;
+    
+}
+nav .links ul li a i{
+    /* border: 1px solid rgb(27, 175, 84); */
+    padding: 5px;
+    width: 35px;
+    background-color: rgb(68, 190, 68);
+    text-align: center;
+    
+}
+
+
+
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container .box1{
+    height:460px;
+    width: 320px;
+    background-color: rgb(31, 30, 38);
+    margin-left: -399.9px;
+}
+
+.img_box1{
+    border: 2px solid rgb(82, 214, 82);
+    width: 210px;
+    height: 210px;
+    border-radius: 49%;
+    position: relative;
+    display: inline-block;
+    top: 80px;
+    left: 60px;
+    
+}
+.img_box2{
+    border: 6.5px solid rgb(21, 179, 61);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: 11.5px;
+    top: 8px;
+    
+}
+.img_box3{
+    border: 6.5px solid rgb(69, 213, 13);
+    border-radius: 50%;
+    display: inline-block;
+}
+.img_box3 img{
+    width: 160px;
+    background: transparent;
+}
+
+
+.text{
+    position: relative;
+    top: 100px;
+    left: 73px;
+}
+.text h1{
+    color: aliceblue;
+}
+.text p{
+   color:rgb(85, 241, 85) ;
+}
+
+
+
+.container .box2{
+    height:295px;
+    width: 370px;
+    background-color: rgb(31, 30, 38);
+    margin-left: -350px;
+    margin-top: 100px;
+    position: absolute;
+    left: 74.5%;
+}
+.box2 .text h1,h2{
+    color: aliceblue;
+    margin-top: -58px;
+    margin-left: -30px;
+}
+.box2 .text ul {
+    position: relative;
+    top: 10px;
+    left: -30px;
+}
+.box2 .text ul li{
+    color: rgb(202, 199, 199);
+    font-size: 13px;
+    list-style-type: none;
+}
+.box2 .text ul li i{
+    padding: 6px;
+}
+.box2 .buttons{
+    margin-left: 20px;
+}
+.box2 .buttons .btn{
+    /* padding: 10px 7px; */
+    width: 100px;
+    height: 35px;
+    margin-top: 128px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(65, 57, 57);
+    color: rgb(255, 255, 255);
+}
+.box2 .buttons .btn:hover{
+    background-color: rgb(240, 80, 52);
+    transition: .2s linear;
+    transform: scale(1.04,1.01);
+}
+
+
+.footer{
+    margin-top: 20px;
+    margin-left: 320px;
+}
+.footer p{
+    color: rgb(211, 202, 202);
+    font-size: 15px;
+}
